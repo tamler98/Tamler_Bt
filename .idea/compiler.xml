@@ -6,11 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Tamler_Bt" />
         <module name="TamNgo_Date8" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Tamler_Bt" target="18" />
-    </bytecodeTargetLevel>
   </component>
 </project>

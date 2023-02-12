@@ -19,4 +19,7 @@ public class BookService {
     public Object findById(int id) {
         return bookRepository.findById(id);
     }
+
+    public Object save(BookEntity book) { return bookRepository.save(book);
+    }
 }
